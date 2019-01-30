@@ -87,7 +87,7 @@ int excuteFunction(std::vector<std::string> &arguments){
 
 void newProcess(std::vector<std::string> &arguments){
     
-        int size = arguments.size();
+        unsigned int size = arguments.size();
         char **argm = new char *[size+1];
         for(unsigned int i=0; i < size; i++){
             char *temp = new char[arguments.at(i).length()+1];

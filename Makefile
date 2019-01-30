@@ -11,7 +11,6 @@ CFLAGS = -Wall -g -O3 -std=c++11
 
 INCPATH += -I/usr/include
 LIBPATH += -L/usr/lib
-LIBS += -lsfml-graphics -lsfml-window -lsfml-system
 
 # If the first argument is "debug"...
 ifeq (debug,$(firstword $(MAKECMDGOALS)))

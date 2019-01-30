@@ -1,0 +1,6 @@
+OS  Project1
+Author: Jiancong Liang
+
+Description: In batch mode, you simply just type "./mysh <batch_file_name>" in the terminal. In basic shell, you simpy just type"./mysh" in the terminal. 
+In this project, there is "Makefile" file. If you want to get a executable program, you simply just type "make". The folder will generate a "mysh" program.
+
